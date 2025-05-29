@@ -1,4 +1,4 @@
-package com.lojadomane.embalagem_api;
+package com.lojadomane;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -9,5 +9,4 @@ public class EmbalagemApiApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(EmbalagemApiApplication.class, args);
 	}
-
 }

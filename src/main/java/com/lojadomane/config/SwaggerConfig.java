@@ -1,4 +1,4 @@
-package com.lojadomane.embalagem_api.config;
+package com.lojadomane.config;
 
 
 import io.swagger.v3.oas.models.OpenAPI;
@@ -11,9 +11,9 @@ public class SwaggerConfig {
     @Bean
     public OpenAPI apiInfo() {
         return new OpenAPI()
-            .info(new Info()
+                .info(new Info()
                 .title("API das Embalagens")
                 .version("v1")
-                .description("Cálculo das embalagens do Seu Mané"));
+                .description("Cálculo da otimização das embalagens da loja do Seu Mané."));
     }
 }
