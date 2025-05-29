@@ -47,3 +47,7 @@ Com a aplicação rodando (local ou Docker), abra no navegador:
 ```
 http://localhost:8080/swagger
 ```
+
+Usuário: ``admin``
+<br/>
+Senha: ``admin``
